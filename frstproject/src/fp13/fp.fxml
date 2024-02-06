@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fp13.fpController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawk.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="348.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cus.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="348.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@collector.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="382.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pap.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="339.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dis.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@status.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="530.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@goog.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="228.0" layoutY="144.0" mnemonicParsing="false" onAction="#dohawker" text="Hawker Manager" />
+      <Button layoutX="498.0" layoutY="144.0" mnemonicParsing="false" onAction="#docustomer" text="Customer Master" />
+      <Button layoutX="228.0" layoutY="290.0" mnemonicParsing="false" onAction="#dogen" text="Bill Generator" />
+      <Button layoutX="510.0" layoutY="290.0" mnemonicParsing="false" onAction="#docollector" text="Bill Collector" />
+      <Button layoutX="229.0" layoutY="432.0" mnemonicParsing="false" onAction="#dopapermaster" text="Paper Master" />
+      <Button layoutX="521.0" layoutY="432.0" mnemonicParsing="false" onAction="#dodisplay" text="Display Hawkers" />
+      <Button layoutX="225.0" layoutY="570.0" mnemonicParsing="false" onAction="#dogoogler" text="Customer Googler" />
+      <Button layoutX="505.0" layoutY="570.0" mnemonicParsing="false" onAction="#dostatus" text="Bill Status" />
+      <Button layoutX="14.0" layoutY="28.0" mnemonicParsing="false" onAction="#doproject" text="Project Developer">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

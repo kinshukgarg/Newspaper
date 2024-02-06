@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fp2.scndprojectController">
+   <children>
+      <Label layoutX="209.0" layoutY="63.0" prefHeight="34.0" prefWidth="182.0" text="Hawker Manager">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cycleid" fitHeight="112.0" fitWidth="162.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nh.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="45.0" layoutY="148.0" text="Hawker Name:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchid" layoutX="254.0" layoutY="148.0" mnemonicParsing="false" onAction="#searchaction" text="Search" />
+      <Label layoutX="346.0" layoutY="147.0" text="Mobile:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mobileid" layoutX="406.0" layoutY="176.0" onAction="#mobileaction" />
+      <Label layoutX="45.0" layoutY="240.0" text="Address:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addressid" layoutX="117.0" layoutY="268.0" onAction="#addressaction" prefHeight="26.0" prefWidth="444.0" />
+      <Label layoutX="45.0" layoutY="321.0" text="Areas:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="327.0" text="Allocated Areas:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="allocatedid" layoutX="334.0" layoutY="355.0" onAction="#allocatedaction" prefHeight="26.0" prefWidth="230.0" />
+      <ImageView fx:id="adhaarid" fitHeight="150.0" fitWidth="200.0" layoutX="369.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ac.jpg" />
+         </image></ImageView>
+      <Button fx:id="enrollid" layoutX="45.0" layoutY="589.0" mnemonicParsing="false" onAction="#enrollaction" text="Enroll" />
+      <Button fx:id="updateid" layoutX="168.0" layoutY="589.0" mnemonicParsing="false" onAction="#updateaction" text="Update" />
+      <Button fx:id="fireid" layoutX="316.0" layoutY="589.0" mnemonicParsing="false" onAction="#fireaction" text="Fire" />
+      <Button fx:id="newid" layoutX="449.0" layoutY="589.0" mnemonicParsing="false" onAction="#newaction" text="New" />
+      <Button fx:id="picid" layoutX="371.0" layoutY="530.0" mnemonicParsing="false" onAction="#picaction" prefHeight="26.0" prefWidth="194.0" text="Upload Adhaarcard pic " />
+      <ImageView fx:id="childid" fitHeight="120.0" fitWidth="182.0" layoutX="422.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hi.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="updateidd" layoutX="15.0" layoutY="622.0" text="update" />
+      <Label fx:id="picpathid" layoutX="117.0" layoutY="534.0" text="picpath" />
+      <ComboBox fx:id="nameid" editable="true" layoutX="166.0" layoutY="176.0" onAction="#nameaction" prefWidth="150.0" />
+      <ComboBox fx:id="areasid" editable="true" layoutX="93.0" layoutY="355.0" onAction="#areasaction" prefWidth="150.0" />
+      <DatePicker fx:id="datepicker" layoutX="152.0" layoutY="451.0" />
+      <Label layoutX="38.0" layoutY="418.0" text="Joining DATE:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
