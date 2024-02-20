@@ -14,5 +14,5 @@ User-Friendly Interface: The graphical user interface (GUI) is designed using Ja
 Technologies Used
 Java
 JavaFX
-FXML
+FXML.
 
